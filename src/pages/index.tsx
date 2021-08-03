@@ -33,7 +33,7 @@ const Home = (props) => {
   return (
     <Box>
       <Head>
-        <title>QuizApp</title>
+        <title>クイズアプリ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
