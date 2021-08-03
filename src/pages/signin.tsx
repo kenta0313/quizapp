@@ -20,10 +20,10 @@ const useSignin = () => {
         <Center mt={10}>
           <VStack spacing="4">
             <Heading fontSize="3xl" mb={2}>
-              Hello, Welcome to the Quiz App!!
+              クイズアプリへようこそ！
             </Heading>
             <Button leftIcon={<FcGoogle />} onClick={() => siginWithGoogle()}>
-              Sign In with Google
+              Googleアカウントでログイン
             </Button>
           </VStack>
         </Center>
