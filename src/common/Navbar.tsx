@@ -23,10 +23,10 @@ const Navbar: React.FC<{}> = () => {
                 }
                 onClick={() => router.push('/quiz/new')}
               >
-                Add new quiz
+                クイズを追加する
               </Link>
               <Link p={2} onClick={() => signOut()}>
-                Logout
+                ログアウト
               </Link>
             </Box>
           ) : (
