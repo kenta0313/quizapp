@@ -24,7 +24,7 @@ import {
         {quiz && answer && (
           <Container maxW="3xl" mt={5}>
             <Center flexDirection="column">
-              <Heading>Correct Answer for {quiz.title}</Heading>
+              <Heading> {quiz.title}</Heading>
               <Text mt={4}>{quiz.description}</Text>
             </Center>
             <Divider
@@ -64,11 +64,11 @@ import {
                     </SimpleGrid>
                   </RadioGroup>
                   <Text mt={3}>
-                    Correct Answer: {singleQuiz.options[singleQuiz.answer].title}
+                    答え: {singleQuiz.options[singleQuiz.answer].title}
                   </Text>
                   {answer.questions[singleQuiz.questionId] ? (
                     <Text>
-                      Selected Answer:{' '}
+                      選んだ答え:{' '}
                       {
                         singleQuiz.options.find(
                           (option) =>
