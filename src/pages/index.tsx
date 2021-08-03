@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import React from 'react';
+import Navbar from '../common/Navbar';
 
 export default function Home() {
   return (
@@ -7,7 +9,9 @@ export default function Home() {
         <title>QuizApp</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main></main>
+      <main>
+        <Navbar />
+      </main>
       <footer></footer>
     </div>
   );
