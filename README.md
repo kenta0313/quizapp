@@ -4,7 +4,7 @@
 
 ## 使用技術
 
-#### フロントエンド
+### フロントエンド
 - React
 - Next.js
 - Typescript
