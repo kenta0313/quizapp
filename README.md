@@ -1,6 +1,5 @@
 ## URL
-
-[https://quizapp-six.vercel.app/](https://quizapp-six.vercel.app/) 
+公開を中止しました。
 
 ## 使用技術
 
